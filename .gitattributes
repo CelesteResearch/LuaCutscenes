@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.dll binary
+*.snk binary
+
+# Preserve multiline literal values.
+Runtime/LuaCutsceneRuntime.cs -text
