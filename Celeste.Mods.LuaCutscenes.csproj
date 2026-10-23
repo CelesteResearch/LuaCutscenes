@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <AssemblyName>Celeste.Mods.LuaCutscenes</AssemblyName>
+        <RootNamespace>Celeste.Mods.LuaCutscenes</RootNamespace>
+    </PropertyGroup>
+    <ItemGroup>
+        <ProjectReference
+            Include="$(SharedRoot)/src/Celeste.Game.Runtime/Celeste.Game.Runtime.csproj"
+            Private="false"
+        />
+        <Reference Include="NLua" HintPath="$(SharedRoot)/lib/Lua/NLua.dll" Private="false" />
+        <Reference Include="KeraLua" HintPath="$(SharedRoot)/lib/Lua/KeraLua.dll" Private="false" />
+    </ItemGroup>
+</Project>
